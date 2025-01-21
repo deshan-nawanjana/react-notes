@@ -1,8 +1,3 @@
----
-layout: default
----
-<link rel="stylesheet" href="./themes/dark-theme.css">
-
 # React Fundamentals
 
 - [Elements Rendering](#elements-rendering)
