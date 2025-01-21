@@ -1,0 +1,69 @@
+/* GitHub Dark Mode CSS */
+body {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, footer, nav, section, article {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+pre, code {
+  background-color: #161b22;
+  color: #d1d5da;
+  padding: 8px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 4px solid #30363d;
+  color: #8b949e;
+  padding-left: 16px;
+  margin: 16px 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 16px 0;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #30363d;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #161b22;
+}
+
+button, input, select, textarea {
+  background-color: #0d1117;
+  color: #c9d1d9;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+button:hover, input:hover, select:hover, textarea:hover {
+  background-color: #161b22;
+}

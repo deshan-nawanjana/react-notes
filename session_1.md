@@ -1,3 +1,8 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="./themes/dark-theme.css">
+
 # React Prerequisites
 
 - [Git - Version Control System](#git-version-control-system)
