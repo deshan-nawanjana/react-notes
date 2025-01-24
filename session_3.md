@@ -163,12 +163,16 @@ import { createApi } from "@reduxjs/toolkit/query/react"
 
 // configure endpoints collection
 const commonAPI = createApi({
-  reducerPath: "commonAPI",
+  reducerPath: "commonAPI"
+  baseQuery: fetchBaseQuery({
+    // api base url
+    baseUrl: "https://sample.com/api"
+  }),
   endpoints: builder => ({
     // login endpoint
     login: builder.mutation({
       query: ({ username, password }) => ({
-        url: "https://sample.com/api/login",
+        url: "/login",
         method: "POST",
         body: { username, password }
       })
@@ -176,7 +180,7 @@ const commonAPI = createApi({
     // logged user data endpoint
     getUserData: builder.mutation({
       query: () => ({
-        url: "https://sample.com/api/user",
+        url: "/user",
         method: "GET",
         headers: {
           Authorization: localStorage.getItem("token")
